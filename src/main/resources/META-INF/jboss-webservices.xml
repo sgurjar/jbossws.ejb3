@@ -1,0 +1,11 @@
+<webservices xmlns="http://www.jboss.com/xml/ns/javaee">
+  <context-root>hr</context-root>
+  <port-component>
+    <ejb-name>HrServiceBean</ejb-name>
+    <port-component-name>HumanResourcePort</port-component-name>
+    <port-component-uri>/*</port-component-uri>
+    <auth-method>BASIC</auth-method>
+    <transport-guarantee>NONE</transport-guarantee>
+    <secure-wsdl-access>false</secure-wsdl-access>
+  </port-component>
+</webservices>
